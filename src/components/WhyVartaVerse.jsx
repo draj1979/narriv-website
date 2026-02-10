@@ -6,22 +6,22 @@ const CheckIcon = () => (
   </svg>
 );
 
-const WhyNarriv = () => {
+const WhyVartaVerse = () => {
   return (
-    <section className="why-narriv">
+    <section className="why-vartaverse">
       <div className="container">
         <h2 className="section-title text-center">The Smartest Way to Watch the News.</h2>
 
         <div className="comparison-table">
           <div className="comparison-row header-row">
             <div className="col benefit">Benefit</div>
-            <div className="col narriv">Narriv</div>
+            <div className="col vartaverse">VartaVerse</div>
             <div className="col traditional">Traditional News</div>
           </div>
 
           <div className="comparison-row">
             <div className="col benefit">Time Required</div>
-            <div className="col narriv highlight">
+            <div className="col vartaverse highlight">
               <CheckIcon />
               <span>2 Minutes</span>
             </div>
@@ -30,7 +30,7 @@ const WhyNarriv = () => {
 
           <div className="comparison-row">
             <div className="col benefit">Understanding</div>
-            <div className="col narriv highlight">
+            <div className="col vartaverse highlight">
               <CheckIcon />
               <span>Visual & Intuitive</span>
             </div>
@@ -39,7 +39,7 @@ const WhyNarriv = () => {
 
           <div className="comparison-row">
             <div className="col benefit">Bias</div>
-            <div className="col narriv highlight">
+            <div className="col vartaverse highlight">
               <CheckIcon />
               <span>Neutral Facts</span>
             </div>
@@ -47,7 +47,7 @@ const WhyNarriv = () => {
           </div>
           <div className="comparison-row">
             <div className="col benefit">Mental Impact</div>
-            <div className="col narriv highlight">
+            <div className="col vartaverse highlight">
               <CheckIcon />
               <span>Clarity</span>
             </div>
@@ -55,11 +55,11 @@ const WhyNarriv = () => {
           </div>
         </div>
 
-        <p className="section-closing text-center">Narriv isn't just a news app; it's a tool for a better-informed society.</p>
+        <p className="section-closing text-center">VartaVerse isn't just a news app; it's a tool for a better-informed society.</p>
       </div>
 
       <style>{`
-        .why-narriv {
+        .why-vartaverse {
           background-color: var(--bg-secondary);
         }
         
@@ -90,7 +90,7 @@ const WhyNarriv = () => {
           font-size: 0.9rem;
         }
         
-        .col.narriv {
+        .col.vartaverse {
           color: var(--accent-primary);
           font-weight: 600;
         }
@@ -162,4 +162,4 @@ const WhyNarriv = () => {
   );
 };
 
-export default WhyNarriv;
+export default WhyVartaVerse;
